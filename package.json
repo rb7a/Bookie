@@ -1,0 +1,53 @@
+{
+	"name": "bookie",
+	"version": "0.1.0",
+	"description": "a finance app",
+	"main": "index.js",
+	"private": true,
+	"scripts": {
+		"start": "webpack-dev-server --mode development --open --hot",
+		"build": "webpack --mode production",
+		"test": "jest --coverage",
+		"test:watch": "npm test -- --watchAll"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/EntOfMD/Bookie.git"
+	},
+	"author": "EntOfMD",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/EntOfMD/Bookie/issues"
+	},
+	"homepage": "https://github.com/EntOfMD/Bookie#readme",
+	"devDependencies": {
+		"@babel/core": "^7.7.5",
+		"@babel/plugin-proposal-class-properties": "^7.7.4",
+		"@babel/plugin-transform-runtime": "^7.7.6",
+		"@babel/preset-env": "^7.7.6",
+		"@babel/preset-react": "^7.7.4",
+		"autoprefixer": "^9.7.3",
+		"babel-loader": "^8.0.6",
+		"css-loader": "^3.3.2",
+		"file-loader": "^5.0.2",
+		"html-webpack-plugin": "^3.2.0",
+		"jest": "^24.9.0",
+		"node-sass": "^4.13.0",
+		"postcss-loader": "^3.0.0",
+		"redux-logger": "^3.0.6",
+		"sass-loader": "^8.0.0",
+		"style-loader": "^1.0.1",
+		"webpack": "^4.41.2",
+		"webpack-cli": "^3.3.10",
+		"webpack-dev-server": "^3.9.0"
+	},
+	"dependencies": {
+		"@babel/runtime": "^7.10.4",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-redux": "^7.2.0",
+		"react-router-dom": "^5.2.0",
+		"redux": "^4.0.5",
+		"redux-saga": "^1.1.3"
+	}
+}
